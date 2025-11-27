@@ -6,7 +6,7 @@ defineProps(['count']);
     <header class="header">
         <h1>Cooking Masterclass</h1>
         <div class="wishlist-status">
-            ❤️ Wishlist: **{{ count }}** items
+            ❤️ Wishlist: <strong>{{ count }}</strong> items
         </div>
     </header>
 </template>
